@@ -6,7 +6,7 @@ function update_location(activity) {
     (function() {
         var location = document.getElementById("location").value;
         location = location.substr(0, location.lastIndexOf(","));   // Removes country from location
-        var apiKey = "&key=AIzaSyDU-fy2Dvxy-7WUjmYF8PovXrwjz5qeFzs"; 
+        var apiKey = "&key=ENTER YOUR API KEY"; 
         var latitude = [];
         var longitude = [];
         var activityLength = 18;
@@ -211,7 +211,7 @@ function autoComplete() {
 function update_weather() {
     (function() {
         var url = "http://api.apixu.com/v1/forecast.json?key=";
-        var apiKey = "072572d88ff3433a9e1203832180903"; 
+        var apiKey = "ENTER YOUR API KEY HERE"; 
         
         var location = document.getElementById("location").value;
         location = location.substr(0, location.lastIndexOf(","));   // Removes country from location
